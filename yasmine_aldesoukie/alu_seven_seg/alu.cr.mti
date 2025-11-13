@@ -1,0 +1,29 @@
+D:/shosh_yasmine_NTI/alu/seven_seg.v {1 {vlog -work work -vopt -stats=none D:/shosh_yasmine_NTI/alu/seven_seg.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module seven_seg
+
+Top level modules:
+	seven_seg
+
+} {} {}} D:/shosh_yasmine_NTI/alu/alu_tb.v {1 {vlog -work work -vopt -stats=none D:/shosh_yasmine_NTI/alu/alu_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} D:/shosh_yasmine_NTI/alu/alu_top.v {1 {vlog -work work -vopt -stats=none D:/shosh_yasmine_NTI/alu/alu_top.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module alu_top
+
+Top level modules:
+	alu_top
+
+} {} {}} D:/shosh_yasmine_NTI/alu/alu.v {1 {vlog -work work -vopt -stats=none D:/shosh_yasmine_NTI/alu/alu.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

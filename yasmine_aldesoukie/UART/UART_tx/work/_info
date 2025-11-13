@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/shosh_yasmine_NTI/UART/UART_tx
+T_opt
+!s110 1762851338
+VEF>?[kJ?F?cN6B`0C0V<;1
+04 10 4 work UART_TX_TB fast 0
+=1-00be43b78375-6912fa0a-55-210c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vmux_4_to_1
+Z2 !s110 1762851325
+!i10b 1
+!s100 QRcO:WMcWK[<A2og;_22j0
+IUUGN92d@4oiS]NB1kOTgc1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1762847371
+8mux_4_to_1.v
+Fmux_4_to_1.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1762851325.000000
+Z6 !s107 UART_TX_TOP.v|UART_TX_TB.v|UART_TX_FSM.v|serializer.v|parity_calc.v|mux_4_to_1.v|
+Z7 !s90 mux_4_to_1.v|parity_calc.v|serializer.v|UART_TX_FSM.v|UART_TX_TB.v|UART_TX_TOP.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vparity_calc
+R2
+!i10b 1
+!s100 oW3m46UUoHnF?FOoF=>JU1
+I3k^]bVNCaQGL9?oT3>SN<0
+R3
+R0
+w1762845511
+8parity_calc.v
+Fparity_calc.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vserializer
+R2
+!i10b 1
+!s100 ;n=:kznSYL_QPEnZizR3K0
+IaFm2kW[]ifl9N8O]1jz[>1
+R3
+R0
+w1762845515
+8serializer.v
+Fserializer.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vUART_TX_FSM
+R2
+!i10b 1
+!s100 9jJ_4Yf;l55FZ1D^gnjhz0
+I6KleBb_>VSI?_U6jS9:K]2
+R3
+R0
+w1762851063
+8UART_TX_FSM.v
+FUART_TX_FSM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@u@a@r@t_@t@x_@f@s@m
+vUART_TX_TB
+R2
+!i10b 1
+!s100 lR9Ui]6J9GBG:gg=_lzJB2
+Ii[WFdW0TIiGWDOjRz_1MW1
+R3
+R0
+w1762851321
+8UART_TX_TB.v
+FUART_TX_TB.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@u@a@r@t_@t@x_@t@b
+vUART_TX_TOP
+R2
+!i10b 1
+!s100 dVMOIZGbV@Af_BoDjajeJ3
+IZS]cTMV@eREH_:=cL=z801
+R3
+R0
+w1762847379
+8UART_TX_TOP.v
+FUART_TX_TOP.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@u@a@r@t_@t@x_@t@o@p

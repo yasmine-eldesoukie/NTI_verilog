@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/shosh_yasmine_NTI/FSM
+T_opt
+!s110 1762870313
+V`^_XOaC0XlEA5Nde>V8am1
+04 6 4 work fsm_tb fast 0
+=1-00be43b78375-69134428-3d3-2008
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfsm
+Z2 !s110 1762870300
+!i10b 1
+!s100 d7M1n`01:NK`>B<2_EF;<1
+IEJR0P_Rl[GSjIU>;CGZ`P1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1762869685
+8fsm.v
+Ffsm.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1762870300.000000
+Z6 !s107 fsm_tb.v|fsm.v|
+Z7 !s90 fsm.v|fsm_tb.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfsm_tb
+R2
+!i10b 1
+!s100 `_B7AJ[JaD50jnCi7H>8n0
+Ih=YCPUo[dePEKXl]WiTcz1
+R3
+R0
+w1762870288
+8fsm_tb.v
+Ffsm_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
