@@ -1,5 +1,5 @@
 module UART_RX_tb #(parameter CLKS_PER_BIT= 3)();
-reg clk, rst; 
+reg clk, rst, soft_rst_tb; 
 reg tx_data_out_tb;
 wire rx_busy_dut, rx_done_dut, error_dut;
 wire [7:0] rx_data_out_dut;
@@ -11,6 +11,7 @@ reg [9:0] tx_frame_tb;
 UART_RX #(CLKS_PER_BIT) dut (
     .clk(clk),
     .rst(rst),
+    .soft_rst(soft_rst_tb),
     .tx_data_out(tx_data_out_tb),
     .rx_busy(rx_busy_dut), 
     .rx_done(rx_done_dut), 
@@ -27,10 +28,31 @@ end
 //stimulus generation
 integer i,j;
 initial begin
+    //test reset dominance
     rst= 1'b0;
-    repeat (20) @(negedge clk);
+    tx_data_out_tb=1'b0;
+    repeat (12*CLKS_PER_BIT) begin //wait time is any number > 10 since frame is ten bits , multiplied by CLKS_PER_BIT
+        @(negedge clk);
+        if (rx_busy_dut != 'b0) begin
+            $display("ERROR in rst");
+            $stop;
+        end
+    end
+
+    //test soft reset dominance
+    rst= 1'b1;
+    soft_rst_tb=1'b1;
+    tx_data_out_tb=1'b0;
+    repeat (12*CLKS_PER_BIT) begin
+        @(negedge clk);
+        if (dut.cs!= 'b0) begin
+            $display("ERROR in soft_rst signal");
+            $stop;
+        end
+    end
 
     rst=1'b1;
+    soft_rst_tb=1'b0;
     tx_data_out_tb=1'b1;
     repeat (5) @(negedge clk);
 
@@ -46,8 +68,12 @@ initial begin
                 $stop;
             end
         end
-        //frame is sent--> check done signal and rx_out
+        //frame is sent--> check busy and done signals and rx_out
         @(negedge clk);
+        if (rx_busy_dut!= 0) begin
+                $display("ERROR in busy signal");
+                $stop;
+            end
         if (rx_done_dut!= 1) begin
             $display("ERROR in done signal");
             $stop;
@@ -80,7 +106,7 @@ initial begin
     repeat (CLKS_PER_BIT*10)  begin
       @(negedge clk)    
       if (error_dut!= 1) begin
-        $display("ERROR in error signal");
+        $display("ERROR in error state");
         $stop;
       end
     end

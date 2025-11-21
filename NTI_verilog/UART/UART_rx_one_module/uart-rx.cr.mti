@@ -1,8 +1,0 @@
-C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling module UART_RX
-
-Top level modules:
-	UART_RX
-
-} {} {}}
