@@ -1,9 +1,12 @@
-module UART_RX #(parameter CLKS_PER_BIT= 5208)(
- input wire clk, rst, soft_rst,
- input wire rx_data_in,
- output reg rx_busy, rx_done, error,
- output reg [7:0] rx_data_out
-);
+module FSM #(parameter CLKS_PER_BIT= 5208)(
+	input wire clk, rst, soft_rst,
+	input wire rx_data_in,
+	input wire [$clog2(CLKS_PER_BIT)-1:0] clk_counter,
+	input wire [2:0] bit_counter,
+	input wire clk_counter_done,
+	output reg clk_counter_en, bit_counter_en, shift_register_en,
+	output reg rx_busy, rx_done, error
+	);
 
 localparam 
   IDLE= 3'b000,
@@ -12,62 +15,10 @@ localparam
   ERROR= 3'b010,
   DONE= 3'b111;
 
-
-reg [$clog2(CLKS_PER_BIT):0] clk_counter;
-reg [2:0] bit_counter;
+reg sample_en, bit_counter_done;
 reg [2:0] cs, ns;
-reg bit_counter_done, clk_counter_done;
-reg bit_counter_en, clk_counter_en, sample_en;
 
-
-//baud counter
- always @(posedge clk or negedge rst) begin
-    if (!rst) begin
-        clk_counter<= CLKS_PER_BIT-1;
-        clk_counter_done <=1'b0;
-    end
-    else if (soft_rst) begin
-        clk_counter<= CLKS_PER_BIT-1;
-        clk_counter_done <=1'b0;
-    end
-    else if (clk_counter== 'b0) begin
-        clk_counter<= CLKS_PER_BIT-1;
-        clk_counter_done<= 1'b1;
-    end
-    else if (clk_counter_en) begin
-        clk_counter<= clk_counter -1;
-        clk_counter_done<= 1'b0;
-    end
- end
-
- //bit counter for DATA state
- always @(posedge clk or negedge rst) begin
-    if (!rst) begin
-        bit_counter<= 'b0;
-    end
-    else if (soft_rst) begin
-        bit_counter<= 'b0;
-    end
-    else if (bit_counter_en && clk_counter_done) begin
-        bit_counter<= bit_counter +1;
-    end
- end
- 
- //shift register
- always @(posedge clk or negedge rst) begin
-    if (!rst) begin
-        rx_data_out <='b0;
-    end
-    else if (soft_rst) begin
-        rx_data_out <='b0;
-    end
-    else if (sample_en && ns==DATA) begin //ns not cs so that the stop bit doesn't overwrite the data reg
-        rx_data_out <= {rx_data_in,rx_data_out[7:1]};
-    end
- end
-
- //////// FSM //////// 
- //current state
+//current state
  always @(posedge clk or negedge rst) begin
     if (!rst) begin
         cs<= IDLE;
@@ -136,6 +87,7 @@ reg bit_counter_en, clk_counter_en, sample_en;
     clk_counter_en= (ns==START || ns==DATA);
     bit_counter_en= (cs==DATA && clk_counter_done); //this means bit 0 has been sampled, since bit_counter already starts at 0 , if updated with ns==data, counter never stops
     sample_en= (clk_counter== ((CLKS_PER_BIT/2)-1));
+    shift_register_en= (sample_en && ns==DATA); //ns not cs so that the stop bit doesn't overwrite the data reg
  end   
 
  //sequential
@@ -154,5 +106,4 @@ reg bit_counter_en, clk_counter_en, sample_en;
      end
  end 
 
-
-endmodule
+ endmodule

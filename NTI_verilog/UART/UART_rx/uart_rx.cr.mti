@@ -1,0 +1,141 @@
+C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/clk_counter.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/clk_counter.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module clk_counter
+
+Top level modules:
+	clk_counter
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/shift_register.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/shift_register.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/mux_2_to_1.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/mux_2_to_1.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mux_2_to_1
+
+Top level modules:
+	mux_2_to_1
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top_tb.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_RX_top_tb
+
+Top level modules:
+	UART_RX_top_tb
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_RX_TOP
+
+Top level modules:
+	UART_RX_TOP
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_FSM.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_FSM.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_RX_FSM
+
+Top level modules:
+	UART_RX_FSM
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_RX
+
+Top level modules:
+	UART_RX
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/deserializer.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/deserializer.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module deserializer
+
+Top level modules:
+	deserializer
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/stop_check.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/stop_check.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module stop_check
+
+Top level modules:
+	stop_check
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/data_sampling.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/data_sampling.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module data_sampling
+
+Top level modules:
+	data_sampling
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP_tb_new.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP_tb_new.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_RX_TOP_tb_new
+
+Top level modules:
+	UART_RX_TOP_tb_new
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_TOP.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_TOP.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_TOP
+
+Top level modules:
+	UART_TOP
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module parity_check
+
+Top level modules:
+	parity_check
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX_one_module_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX_one_module_tb.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_RX_one_module_tb
+
+Top level modules:
+	UART_RX_one_module_tb
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/FSM.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/FSM.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FSM
+
+Top level modules:
+	FSM
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/bit_counter.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/bit_counter.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module bit_counter
+
+Top level modules:
+	bit_counter
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/edge_bit_counter.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/edge_bit_counter.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module edge_bit_counter
+
+Top level modules:
+	edge_bit_counter
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_rx_top
+
+Top level modules:
+	UART_rx_top
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/start_check.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/start_check.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module start_check
+
+Top level modules:
+	start_check
+
+} {} {}} C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check_tb.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module parity_check_tb
+
+Top level modules:
+	parity_check_tb
+
+} {} {}}

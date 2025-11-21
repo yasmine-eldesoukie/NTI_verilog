@@ -1,0 +1,488 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1763719611
+V7@VPmm04S_1AE`e3kM0>a3
+04 18 4 work UART_RX_TOP_tb_new fast 0
+=1-7c8ae1c05cb5-692039bb-1c2-42e4
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1763724920
+VFiQ`9^S834oGI@kT_QiQn3
+04 21 4 work UART_RX_one_module_tb fast 0
+=3-7c8ae1c05cb5-69204e78-94-38e4
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+vbit_counter
+!s110 1763735263
+!i10b 1
+!s100 0:F<5U>RP?B3:7h?2<oN`1
+INGLUZS1OY77CnjaJ?Io3n2
+Z6 dC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx
+w1763735244
+Z7 8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/bit_counter.v
+Z8 FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/bit_counter.v
+!i122 43
+Z9 L0 1 19
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1763735263.000000
+Z12 !s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/bit_counter.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/bit_counter.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vclk_counter
+!s110 1763734168
+!i10b 1
+!s100 =fHb]@c[<1i1lPMP<Ue470
+I`_PPZE1_]`7;B`Gbb6UdG3
+R6
+w1763734006
+R7
+R8
+!i122 36
+R9
+R10
+R11
+r1
+!s85 0
+31
+!s108 1763734168.000000
+R12
+R13
+!i113 0
+R14
+R4
+vdata_sampling
+Z15 !s110 1763724857
+!i10b 1
+!s100 a_7:zDJe3bazAJWh@ILB=3
+IoL<Jl:V0XR`^Wd=99fW1P2
+R6
+Z16 w1763438724
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/data_sampling.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/data_sampling.v
+!i122 18
+L0 1 57
+R10
+R11
+r1
+!s85 0
+31
+Z17 !s108 1763724857.000000
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/data_sampling.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/data_sampling.v|
+!i113 0
+R14
+R4
+vdeserializer
+R15
+!i10b 1
+!s100 QV6ca^KDanI@XHH_`=JX83
+ITM<=:3MJK2Q0KOGZL1A?g3
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/deserializer.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/deserializer.v
+!i122 19
+Z18 L0 1 16
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/deserializer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/deserializer.v|
+!i113 0
+R14
+R4
+vedge_bit_counter
+R15
+!i10b 1
+!s100 _5TK5[04hi^Vk<H0AH0CK1
+IUdToLkF=g>M9mPF=ZM9Pl2
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/edge_bit_counter.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/edge_bit_counter.v
+!i122 20
+L0 1 79
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/edge_bit_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/edge_bit_counter.v|
+!i113 0
+R14
+R4
+vFSM
+!s110 1763735173
+!i10b 1
+!s100 _lP5eK0jU@Fo5X^BBQ2hK2
+IX5^0928Qi8I?WLiTJZnHf1
+R6
+w1763735165
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/FSM.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/FSM.v
+!i122 42
+L0 1 109
+R10
+R11
+r1
+!s85 0
+31
+!s108 1763735173.000000
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/FSM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/FSM.v|
+!i113 0
+R14
+R4
+n@f@s@m
+vmux_2_to_1
+R15
+!i10b 1
+!s100 ocR>zzWYiI9;E4@Ehf=QK0
+IhW5JfBc1`X<i<zYkSJlQ73
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/mux_2_to_1.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/mux_2_to_1.v
+!i122 21
+L0 1 9
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/mux_2_to_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/mux_2_to_1.v|
+!i113 0
+R14
+R4
+vparity_check
+R15
+!i10b 1
+!s100 i^m7Y18cBoGV=GdoJ2P7G3
+IBez:D7zcgT9S3FfS3cFoJ1
+R6
+w1763689194
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check.v
+!i122 22
+Z19 L0 1 20
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check.v|
+!i113 0
+R14
+R4
+vparity_check_tb
+R15
+!i10b 1
+!s100 YSD7EH06e:[>2mTYPA=Qi0
+IE[EE6eM9^0_OB<V:HaGmB0
+R6
+w1763689200
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check_tb.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check_tb.v
+!i122 23
+L0 1 107
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/parity_check_tb.v|
+!i113 0
+R14
+R4
+vshift_register
+!s110 1763734290
+!i10b 1
+!s100 LZI;KDTB[lX`a`HiXWMl?2
+Ijln7bnoQX]hA>0OWNf[ie1
+R6
+w1763734282
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/shift_register.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/shift_register.v
+!i122 38
+R19
+R10
+R11
+r1
+!s85 0
+31
+!s108 1763734290.000000
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/shift_register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/shift_register.v|
+!i113 0
+R14
+R4
+vstart_check
+R15
+!i10b 1
+!s100 963VX78e_OWN?>KL>]8Q82
+IbQ1nPl[3;O6_G^P`?dgGP2
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/start_check.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/start_check.v
+!i122 24
+R18
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/start_check.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/start_check.v|
+!i113 0
+R14
+R4
+vstop_check
+R15
+!i10b 1
+!s100 5;S?ni2XM2Yzz@iZRm]W41
+I8VS^YH5PS1QXDQb2ijCFG1
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/stop_check.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/stop_check.v
+!i122 25
+R18
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/stop_check.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/stop_check.v|
+!i113 0
+R14
+R4
+vUART_RX
+!s110 1763733673
+!i10b 1
+!s100 Ej>i:4TlaBoN=a5c``JBf1
+I19SoRS54ia[P30K9nQ39i3
+R6
+w1763724975
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v
+!i122 33
+L0 1 158
+R10
+R11
+r1
+!s85 0
+31
+!s108 1763733673.000000
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_@r@x
+vUART_RX_FSM
+R15
+!i10b 1
+!s100 X81X4Lz^6HzoP:EOH6kik1
+I0fPFa>N3F>kI>7:IeY4QK1
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_FSM.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_FSM.v
+!i122 26
+L0 1 100
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_FSM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_FSM.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_@r@x_@f@s@m
+vUART_RX_one_module_tb
+Z20 !s110 1763724858
+!i10b 1
+!s100 o4V^UC8ZiGLOUJgLT]Ado2
+I3[bcXchd8b80RBKe6NI>L0
+R6
+w1763723763
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX_one_module_tb.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX_one_module_tb.v
+!i122 31
+Z21 L0 1 117
+R10
+R11
+r1
+!s85 0
+31
+Z22 !s108 1763724858.000000
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX_one_module_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_one_module/UART_RX_one_module_tb.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_@r@x_one_module_tb
+vUART_RX_TOP
+R15
+!i10b 1
+!s100 a=Zde3OgK3zJl@K6=K46H2
+II@cSR5i=SGiH3mVR5SZRc1
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP.v
+!i122 27
+L0 1 83
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_@r@x_@t@o@p
+vUART_rx_top
+!s110 1763735433
+!i10b 1
+!s100 3PzBGCG9P8i?U1Qf<cHXP1
+InXhj3UnYYDWOTXkG0ezh<0
+R6
+w1763735427
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top.v
+!i122 46
+L0 1 56
+R10
+R11
+r1
+!s85 0
+31
+!s108 1763735433.000000
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_rx_top
+vUART_RX_top_tb
+!s110 1763735466
+!i10b 1
+!s100 W67TES0@mNJ_dVDNlG<4;1
+I[Um7OZe6OJO<k@ZgFc>Yo1
+R6
+w1763735459
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top_tb.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top_tb.v
+!i122 47
+R21
+R10
+R11
+r1
+!s85 0
+31
+!s108 1763735465.000000
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx_multiple_modules/UART_rx_top_tb.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_@r@x_top_tb
+vUART_RX_TOP_tb_new
+R20
+!i10b 1
+!s100 J=`n`ARM6FZeLnMB0fhh?2
+I5hQ?l?]m0BEfWb<21KH>K3
+R6
+w1763688844
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP_tb_new.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP_tb_new.v
+!i122 28
+L0 2 224
+R10
+R11
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP_tb_new.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_RX_TOP_tb_new.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_@r@x_@t@o@p_tb_new
+vUART_TOP
+R20
+!i10b 1
+!s100 6SL2>j7NWE4ab=M<c6@WS3
+Il`hohUg>YXjGf`i5MzP_i1
+R6
+R16
+8C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_TOP.v
+FC:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_TOP.v
+!i122 29
+L0 1 42
+R10
+R11
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_TOP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/user/git_repos/NTI/NTI_verilog/UART/UART_rx/UART_TOP.v|
+!i113 0
+R14
+R4
+n@u@a@r@t_@t@o@p
